@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --error-massage: #ba181b;
+  --success-massage: #2ec4b6;
+  --blue-color: #00a6fb;
+  --gray-color: #6c757d;
+  --background-color: #f8f9fa;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+  color: var(--blue-color);
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.form-control label {
+  color: var(--blue-color);
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: var(--blue-color);
+  transition: 0.4s;
+}
+
+.form-control.success input {
+  border-color: var(--success-massage);
+}
+
+.form-control.error input {
+  border-color: var(--error-massage);
+}
+.form-control.error small {
+  visibility: visible;
+}
+
+.form-control small {
+  color: var(--error-massage);
+  position: absolute;
+  bottom: -10;
+  left: 0;
+  visibility: hidden;
+}
+
+.form button {
+  background-color: var(--blue-color);
+  border: 3px solid var(--blue-color);
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  display: block;
+  margin-top: 20px;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: var(--blue-color);
+  transition: 0.4s;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --error-massage: #ba181b;
+  --success-massage: #2ec4b6;
+  --blue-color: #00a6fb;
+  --gray-color: #6c757d;
+  --background-color: #f8f9fa;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+  color: var(--blue-color);
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.form-control label {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input {
+  border: 0;
+  border-bottom: 2px solid #f0f0f0;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  transition: 0.4s;
+  border-bottom-color: var(--blue-color);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: var(--blue-color);
+  transform: translateY(-30px);
+}
+
+.form-control.success input {
+  border-color: var(--success-massage);
+}
+
+.form-control.error input {
+  border-color: var(--error-massage);
+}
+.form-control.error small {
+  visibility: visible;
+}
+
+.form-control small {
+  color: var(--error-massage);
+  position: absolute;
+  bottom: -10;
+  left: 0;
+  visibility: hidden;
+}
+.form button {
+  background-color: var(--blue-color);
+  border: 3px solid var(--blue-color);
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  display: block;
+  margin-top: 20px;
+}
+.form button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: var(--blue-color);
+  transition: 0.4s;
+}
+.form button:active {
+  transform: scale(0.93);
+} */
